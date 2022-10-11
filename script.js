@@ -1,6 +1,6 @@
 'use strict';
 const validKeys = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o'];
-
+const allKeys = document.querySelectorAll('.all-keys');
 // transition
 
 // Play audio with key press

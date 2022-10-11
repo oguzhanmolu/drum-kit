@@ -14,7 +14,7 @@ body {
   align-items: center;
   gap: 3rem;
 }
-.individual-key {
+.all-keys {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,8 @@ body {
 
   background-color: white;
   box-shadow: 0 10px black;
-  opacity: 75%;
+  border: 5px solid black;
+  opacity: 85%;
   border-radius: 1rem;
 }
 .key-name {
@@ -34,12 +35,17 @@ body {
   font-weight: 500;
 }
 .key-notation {
+  text-transform: capitalize;
   font-size: 1.2rem;
+  color: #ffc600;
 }
 .playing {
+  scale: 1.2;
+  transition: all 0.25s;
   background-color: black;
   color: white;
-  box-shadow: 0px 0px 10px white;
-  scale: 1.1;
+  border: 3px solid #ffc600;
+  box-shadow: 0px 0px 40px #ffc600;
+
   text-transform: uppercase;
 }
