@@ -12,5 +12,14 @@ document.addEventListener('keydown', function (e) {
     // Audio Play
     const audio = new Audio(`/sounds/${whichNotation}.wav`);
     audio.play();
+
+    // Transition end
+    allKeys.forEach((key) =>
+      key.addEventListener('transitionend', function () {
+        document
+          .querySelector(`.${whichNotation}-main`)
+          .classList.remove('playing');
+      })
+    );
   }
 });

@@ -25,7 +25,6 @@ body {
   text-align: center;
 
   background-color: white;
-  box-shadow: 0 10px black;
   border: 5px solid black;
   opacity: 85%;
   border-radius: 1rem;
@@ -41,11 +40,10 @@ body {
 }
 .playing {
   scale: 1.2;
-  transition: all 0.25s;
+  transition: all 0.15s;
   background-color: black;
   color: white;
   border: 3px solid #ffc600;
-  box-shadow: 0px 0px 40px #ffc600;
 
   text-transform: uppercase;
 }
