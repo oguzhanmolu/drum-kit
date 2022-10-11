@@ -47,3 +47,16 @@ body {
 
   text-transform: uppercase;
 }
+#github-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  color: white;
+}
+#github-icon {
+  height: 4rem;
+  filter: invert();
+}
